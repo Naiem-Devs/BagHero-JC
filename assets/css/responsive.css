@@ -1,0 +1,439 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .BlogSlider__content {
+        gap: 13px;
+    }
+
+    .Blog__slider__blk {
+        gap: 20px;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .menu-area nav ul li a {
+        font-size: 14px;
+    }
+
+    .menu-area ul {
+        gap: 20px;
+    }
+
+    .Back__link {
+        left: -35px;
+    }
+
+    .signUp__img img {
+        width: 42%;
+    }
+
+    .owl-nav {
+        max-width: 60%;
+    }
+
+    .BlogSlider__content h4 {
+        font-size: 16px;
+    }
+
+    .BlogSlider__content p {
+        font-size: 14px;
+    }
+
+    .BlogSlider__content {
+        max-width: 287px;
+        gap: 15px;
+    }
+
+    .tag__list {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .Blog__slider__blk {
+        gap: 20px;
+    }
+
+    .Blog__slider .owl-stage-outer {
+        padding-top: 0px;
+    }
+}
+
+
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-select__wrp {
+        flex-wrap: wrap;
+    }
+
+    .price-area .hero-select__wrp {
+        justify-content: center;
+    }
+
+    .Payment__content ul {
+        max-width: 600px;
+    }
+
+    .hero-area {
+        padding-bottom: 100px;
+    }
+
+    .sec__padding {
+        padding: 80px 0;
+    }
+
+    .Back__link {
+        left: 0px;
+    }
+
+    .step__nav ul {
+        max-width: 520px;
+    }
+
+    .price__blk {
+        max-width: 500px;
+        margin-inline: auto;
+    }
+
+    .header-area {
+        padding: 15px 0px;
+    }
+
+    .sub__header {
+        top: 59px;
+        display: none;
+    }
+
+    .Payment__content ul li span {
+        width: 250px;
+    }
+
+    .signUp__img img {
+        width: 42%;
+    }
+
+    .Blog__slider__blk {
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+
+    .BlogSlider__content {
+        gap: 14px;
+    }
+
+    .owl-nav {
+        max-width: 64%;
+    }
+
+    .place__blk>i {
+        height: 200px;
+    }
+
+
+
+    .partnerSvc__img {
+        padding-left: 20px;
+    }
+
+    .Partners__content ul {
+        gap: 20px;
+    }
+
+    .Partners__content ul li {
+        width: calc(20% - 16px);
+    }
+
+    .Reviews__blk p {
+        font-size: 16px;
+    }
+
+    .SimpleStep-area .sec__title h2 {
+        font-size: 27px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .SimpleStep__wrp ul li i {
+        max-width: 300px;
+    }
+}
+
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .sec__padding {
+        padding: 60px 0;
+    }
+
+    :root {
+
+        --f18: 15px;
+        --f20: 17px;
+        --f22: 17px;
+        --f24: 19px;
+        --f28: 21px;
+        --f30: 24px;
+        --f32: 26px;
+        --f36: 28px;
+        --f40: 30px;
+        --f48: 32px;
+    }
+
+    .header-area {
+        padding: 10px 0;
+    }
+
+    .hero-select__wrp {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-area {
+        padding-bottom: 100px;
+    }
+
+    .Benefits__content ul {
+        flex-wrap: wrap;
+    }
+
+    .Benefits__content ul li {
+        width: 100%;
+    }
+
+    .Back__link {
+        left: 0;
+        top: 25px;
+        height: 45px;
+    }
+
+    .Benefits__content ul li i {
+        width: 120px;
+        margin-right: 16px;
+    }
+
+    .Explore__blk {
+        max-width: 300px;
+        margin-inline: auto;
+    }
+
+    .f__logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .social__logo ul {
+        justify-content: center;
+    }
+
+
+    .Reviews__blk {
+        width: 98%;
+    }
+
+    .step__nav ul li span {
+        font-size: 12px;
+        display: block;
+        max-width: 68px;
+    }
+
+
+    .step__nav ul {
+        gap: 0;
+        align-items: baseline;
+    }
+
+    .thm_btn {
+        font-size: 14px;
+    }
+
+    .thm_btn.active {
+        height: 45px;
+    }
+
+    .footer__nav {
+        padding-left: 20px;
+    }
+
+    .menu-area nav ul li a {
+        font-size: 14px;
+    }
+
+    .menu-area ul {
+        gap: 20px;
+    }
+
+    .header-area {
+        padding: 15px 0px;
+    }
+
+    .sub__header {
+        top: 59px;
+        display: none;
+    }
+
+    section.step-area .step__nav {
+        padding-top: 100px;
+    }
+
+    .map__area iframe {
+        height: 300px;
+    }
+
+    .hero-top h4 {
+        padding: 14px 0;
+    }
+
+    .code__wrp {
+        flex-direction: column;
+    }
+
+    .Reason__select>b {
+        flex-basis: 100%;
+    }
+
+    .Reason__select {
+        flex-wrap: wrap;
+    }
+
+    .input__blk input {
+        height: 40px;
+    }
+
+    .code__wrp .thm_btn.active {
+        height: 45px;
+    }
+
+    .Payment__content>ul>li {
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 16px;
+        gap: 3px;
+    }
+
+    .Payment__content ul li span {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .Payment__content ul li input {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Payment__content ul li>.select__blk {
+        max-width: 100%;
+    }
+
+    .pay__btns {
+        justify-content: center;
+        max-width: 100%;
+        width: 100%;
+    }
+
+
+    .date__select {
+        max-width: 100%;
+    }
+
+    .Payment__content>ul>li:last-child {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Payment__content>ul>li:last-child {
+        text-align: center;
+    }
+
+    .search__blk {
+        flex-direction: column;
+    }
+
+    .signUp__img img {
+        display: none;
+    }
+
+    .Blog__slider__blk {
+        flex-direction: column-reverse;
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .owl-nav {
+        max-width: 90%;
+    }
+
+    .BlogSlider__content {
+        gap: 14px;
+        max-width: 100%;
+    }
+
+    .VisitedHero-area {
+        height: 280px;
+    }
+
+    .place__top h3 {
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
+
+    .partnerSvc__img {
+        padding-left: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .Partners__content ul {
+        gap: 20px;
+    }
+
+    .Partners__content ul li {
+        width: calc(50% - 16px);
+    }
+
+    .Reviews__blk p {
+        font-size: 16px;
+    }
+
+    .SimpleStep-area .sec__title h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .SimpleStep__wrp ul li i {
+        max-width: 300px;
+    }
+
+    .PartnerHero__content {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .PartnerHero__content a {
+        margin: auto;
+    }
+
+    .partnerSvc__content {
+        margin-left: 20px;
+    }
+
+    .SimpleStep__wrp ul li {
+        flex-direction: column;
+    }
+}
+
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+}
